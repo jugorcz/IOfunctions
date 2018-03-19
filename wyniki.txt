@@ -1,0 +1,90 @@
+
+------------------------------RECORD SIZE: 4
+copy sys
+real	4687.000000 us
+user	0.000000 us
+sys	0.000000 us
+...................
+copy lib
+real	225.000000 us
+user	0.000000 us
+sys	0.000000 us
+...................
+sort sys
+real	2475725.000000 us
+user	53.000000 us
+sys	195.000000 us
+...................
+sort lib
+real	2009142.000000 us
+user	54.000000 us
+sys	146.000000 us
+...................
+
+------------------------------RECORD SIZE: 512
+copy sys
+real	1944.000000 us
+user	0.000000 us
+sys	0.000000 us
+...................
+copy lib
+real	629.000000 us
+user	0.000000 us
+sys	0.000000 us
+...................
+sort sys
+real	2516316.000000 us
+user	54.000000 us
+sys	198.000000 us
+...................
+sort lib
+real	2150966.000000 us
+user	66.000000 us
+sys	149.000000 us
+...................
+
+------------------------------RECORD SIZE: 4096
+copy sys
+real	1440.000000 us
+user	0.000000 us
+sys	0.000000 us
+...................
+copy lib
+real	2336.000000 us
+user	0.000000 us
+sys	0.000000 us
+...................
+sort sys
+real	707171.000000 us
+user	13.000000 us
+sys	57.000000 us
+...................
+sort lib
+real	793535.000000 us
+user	21.000000 us
+sys	59.000000 us
+...................
+
+------------------------------RECORD SIZE: 8192
+copy sys
+real	381.000000 us
+user	0.000000 us
+sys	1.000000 us
+...................
+copy lib
+real	1118.000000 us
+user	0.000000 us
+sys	0.000000 us
+...................
+sort sys
+real	36229.000000 us
+user	1.000000 us
+sys	2.000000 us
+...................
+sort lib
+real	37338.000000 us
+user	1.000000 us
+sys	3.000000 us
+...................
+
+Z pomiarów można wywnioskować, że funkcje systemowe są szybsze od funkcji bibliotecznych. Największą różnicę czasów widać przy kopiowaniu zawarości jednego pliku do drugiego.
