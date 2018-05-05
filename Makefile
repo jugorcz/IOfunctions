@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -std=c99 -g -Wall -ansi #-pedantic
+CFLAGS = -std=c99 -g -Wall -ansi
 DEPS = auxiliaryFunctions.h
 OBJ = main.o auxiliaryFunctions.o
 SRC = main.c auxiliaryFunctions.c

@@ -87,4 +87,5 @@ user	1.000000 us
 sys	3.000000 us
 ...................
 
+
 Z pomiarów można wywnioskować, że funkcje systemowe są szybsze od funkcji bibliotecznych. Największą różnicę czasów widać przy kopiowaniu zawarości jednego pliku do drugiego.

@@ -21,7 +21,7 @@ int recordsNumber;
 int recordLength;
 int usedLib;
 
-/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
 void displayInfo()
 {
     printf("\nWrong arguments amount, should be at least two: \n"
@@ -126,7 +126,7 @@ void displayArguments(int argc, char* argv[],int operation, char* fileName1, cha
     printf("\nnazwa pliku: %s\n",fileName2);
 }
 
-/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
 
 void generate(char* fileName1,int recordsNumber, int recordLength)
 {

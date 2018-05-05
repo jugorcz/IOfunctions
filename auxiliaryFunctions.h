@@ -1,6 +1,5 @@
 /* Created by Justyna Gorczyca on 18.03.18. */
 
-
 #ifndef UNTITLED_AUXILIARYFUNCTIONS_H
 #define UNTITLED_AUXILIARYFUNCTIONS_H
 

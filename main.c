@@ -7,10 +7,8 @@
 #include <fcntl.h>
 #include <sys/types.h>
 #include <sys/stat.h>
-
 #include <time.h>
 #include <sys/times.h>
-
 
 #include "auxiliaryFunctions.h"
 
@@ -21,10 +19,6 @@ int recordsNumber;
 int recordLength;
 int usedLib;
 
-
-
-
-
 int properArguments(int argc, char* argv[])
 {
     if(argc < 2)
@@ -32,7 +26,6 @@ int properArguments(int argc, char* argv[])
         displayInfo();
         return 0;
     }
-
     operation = setOperation(argv);
     fileName1 = setFileName1(argc,argv);
     recordsNumber = setRecordsNumber(argc,argv);
